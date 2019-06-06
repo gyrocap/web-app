@@ -21,7 +21,7 @@ describe("Login Form", function(){
     
     beforeEach(function(){
         
-        driver.get("http://localhost:8080/login");
+        driver.get("http://localhost:" + process.env.PORT||8080 + "/login");
         driver.manage().window().maximize();
     
     });

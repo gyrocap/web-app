@@ -32,7 +32,7 @@ app.get('/logout', require('./routes/logout/get.js'));
 var server = require('http').createServer(app);
 var socket = require('socket.io').listen(server);
 
-server.listen(8080);
+server.listen(process.env.PORT||8080);
 
 socket.on('connection', function(socket){
 
