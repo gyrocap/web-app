@@ -4,28 +4,28 @@ describe("Home Page", function(){
   
     it("Should redirect to login if not logged in", function(){
         
-        browser.url("http://localhost:5000/")
+        browser.url("/")
 
-        assert.equal("http://localhost:5000/login", browser.getUrl())
+        assert.equal(browser.options.baseUrl + "/login", browser.getUrl())
  
     });
  
     it("Should appear on log in", function(){
  
-        browser.url("http://localhost:5000/login")
+        browser.url("/login")
         $('#password').setValue('WebdriverIO')
         $('#username').setValue('WebdriverIO')
         $('#btnLogin').click()
 
         browser.pause(2000)
 
-        assert.equal("http://localhost:5000/", browser.getUrl())
+        assert.equal(browser.options.baseUrl + "/", browser.getUrl())
         
     });
 
     it("Displays welcome banner", function(){
  
-        browser.url("http://localhost:5000/login")
+        browser.url("/login")
         $('#password').setValue('WebdriverIO')
         $('#username').setValue('WebdriverIO')
         $('#btnLogin').click()
@@ -38,7 +38,7 @@ describe("Home Page", function(){
 
     it("Welcome banner can be removed", function(){
  
-        browser.url("http://localhost:5000/login")
+        browser.url("/login")
         $('#password').setValue('WebdriverIO')
         $('#username').setValue('WebdriverIO')
         $('#btnLogin').click()

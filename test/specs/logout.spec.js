@@ -4,9 +4,9 @@ describe("Logout", function(){
   
     it("Redirects to log in page", function(){
  
-        browser.url("http://localhost:5000/logout")
+        browser.url("/logout")
 
-        assert.equal("http://localhost:5000/login", browser.getUrl())
+        assert.equal(browser.options.baseUrl + "/login", browser.getUrl())
         
     });
 
