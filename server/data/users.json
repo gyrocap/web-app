@@ -2,5 +2,9 @@
     {
         "username": "admin",
         "password": "Passwd1!"
+    },
+    {
+        "username": "WebdriverIO",
+        "password": "WebdriverIO"
     }
 ]

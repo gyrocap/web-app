@@ -32,8 +32,11 @@ app.get('/logout', require('./routes/logout/get.js'));
 var server = require('http').createServer(app);
 var socket = require('socket.io').listen(server);
 
-server.listen(process.env.PORT||8080);
+const PORT = process.env.PORT || 5000
+server.listen(PORT);
 
 socket.on('connection', function(socket){
 
 });
+
+module.exports.PORT = PORT;
