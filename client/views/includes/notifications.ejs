@@ -1,0 +1,26 @@
+            <% if(messages.warning){ %>
+                <div class="container" id="warning">
+                    <article class="message is-danger">
+                        <div class="message-header">
+                            <p>Attention</p>
+                            <button class="delete" aria-label="delete" onclick="removeWarning()"></button>
+                        </div>
+                        <div class="message-body">
+                            <%= messages.warning %>
+                        </div>
+                    </article>
+                </div>
+            <% } %>
+            <% if(messages.info){ %>
+                <div class="container" id="info">
+                    <article class="message is-info">
+                        <div class="message-header">
+                            <p>Information</p>
+                            <button class="delete" aria-label="delete" onclick="removeInfo()"></button>
+                        </div>
+                        <div class="message-body">
+                            <%= messages.info %>
+                        </div>
+                    </article>
+                </div>
+            <% } %>

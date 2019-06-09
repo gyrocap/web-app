@@ -1,52 +1,81 @@
-const assert = require('assert');
+const TimelineReporter = require('wdio-timeline-reporter').default;
+const assert = require('chai').assert;
+let HP = require('../pages/homePage');
+let LoginForm = require('../pages/loginForm');
+let WelcomeBanner = require('../components/welcomeBanner');
 
 describe("Home Page", function(){
+
+    afterEach(function(){
+        browser.reloadSession()
+    });
   
     it("Should redirect to login if not logged in", function(){
         
-        browser.url("/")
+        browser.url(HP.url);
 
-        assert.equal(browser.options.baseUrl + "/login", browser.getUrl())
+        browser.pause(1000);
+
+        browser.takeScreenshot();
+
+        assert.equal(browser.options.baseUrl + LoginForm.url, browser.getUrl());
  
     });
  
     it("Should appear on log in", function(){
+
+        TimelineReporter.addContext(JSON.stringify({
+           username: "WebdriverIO",
+           password: "WebdriverIO"
+        }));
  
-        browser.url("/login")
-        $('#password').setValue('WebdriverIO')
-        $('#username').setValue('WebdriverIO')
-        $('#btnLogin').click()
+        browser.url(LoginForm.url);
+        $(LoginForm.usernameField).setValue('WebdriverIO');
+        $(LoginForm.passwordField).setValue('WebdriverIO');
+        $(LoginForm.submitButton).click();
 
-        browser.pause(2000)
+        browser.pause(1000);
 
-        assert.equal(browser.options.baseUrl + "/", browser.getUrl())
+        browser.takeScreenshot();
+
+        assert.equal(browser.options.baseUrl + HP.url, browser.getUrl());
         
     });
 
     it("Displays welcome banner", function(){
- 
-        browser.url("/login")
-        $('#password').setValue('WebdriverIO')
-        $('#username').setValue('WebdriverIO')
-        $('#btnLogin').click()
 
-        browser.pause(2000)
+        browser.url(LoginForm.url);
+        $(LoginForm.usernameField).setValue('WebdriverIO');
+        $(LoginForm.passwordField).setValue('WebdriverIO');
+        $(LoginForm.submitButton).click();
 
-        assert.ok($("#welcome"))
+        browser.pause(1000);
+
+        browser.takeScreenshot();
+
+        assert.ok($(WelcomeBanner.welcomeDiv));
  
     });
 
     it("Welcome banner can be removed", function(){
- 
-        browser.url("/login")
-        $('#password').setValue('WebdriverIO')
-        $('#username').setValue('WebdriverIO')
-        $('#btnLogin').click()
 
-        browser.pause(2000)
+        browser.url(LoginForm.url);
+        $(LoginForm.usernameField).setValue('WebdriverIO');
+        $(LoginForm.passwordField).setValue('WebdriverIO');
+        $(LoginForm.submitButton).click();
 
-        $("#closeWelcome").click();
- 
+        browser.pause(1000);
+
+        browser.takeScreenshot();
+
+        $(WelcomeBanner.closeButton).click();
+
+        browser.pause(1000);
+
+        browser.takeScreenshot();
+
+        assert.equal(undefined, $(WelcomeBanner.welcomeDiv).length);
+
     });
   
 });

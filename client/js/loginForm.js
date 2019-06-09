@@ -69,11 +69,3 @@ function noMessage(id){
         grandParent.find("p").remove();
     }
 }
-
-function removeWarning(){
-    $("#warning").remove();
-}
-
-function removeInfo(){
-    $("#info").remove();
-}

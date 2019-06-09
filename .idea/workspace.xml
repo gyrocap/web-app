@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe3a056a-00cf-4820-bb61-00c31e6025fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/web-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/js/notifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/views/includes/notifications.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560062769837.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560062770070.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560062771636.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560063049552.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560063049775.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560063051288.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560092817695.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560092893446.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560092894662.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560092896520.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560092898127.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560092899752.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560092901445.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093510846.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093511966.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093513539.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093515165.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093516726.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093518298.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093582663.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093584041.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093585723.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093587440.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093589183.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093591112.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093604398.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093605676.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093744499.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093745041.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093745565.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093752481.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093752855.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093759664.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093760132.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093766669.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093767576.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093767944.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/file-1560093775283.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/timelineReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/home.spec/welcomeBannerCanBeRemoved/beforeSubmit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/home.spec/welcomeBannerCanBeRemoved/onClosedBanner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/home.spec/welcomeBannerCanBeRemoved/reachUrl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/components/welcomeBanner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pages/homePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pages/loginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pages/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wdio.conf.ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wdio.conf.ff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/loginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/loginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/includes/loginForm.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/includes/loginForm.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/includes/registrationForm.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/includes/registrationForm.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/data/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/data/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/login/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/login/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/home.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/home.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/login.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/login.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/logout.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/logout.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/register.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/includes/loginForm.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/js/notifications.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/js/loginForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/login.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/includes/notifications.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wdio.conf.ff.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wdio.conf.ch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/specs/login.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="128" column="30" lean-forward="true" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'#btnLogin'</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>LoginForm.submitButton</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/features/support/steps/common/given.js" />
+        <option value="$PROJECT_DIR$/features/support/steps/common/then.js" />
+        <option value="$PROJECT_DIR$/features/support/steps/common/when.js" />
+        <option value="$PROJECT_DIR$/features/support/welcome_banner.feature" />
+        <option value="$PROJECT_DIR$/features/support/pages/Page.js" />
+        <option value="$PROJECT_DIR$/features/registration_form.feature" />
+        <option value="$PROJECT_DIR$/test-reports/generate.js" />
+        <option value="$PROJECT_DIR$/features/support/pages/home.js" />
+        <option value="$PROJECT_DIR$/features/support/pages/register.js" />
+        <option value="$PROJECT_DIR$/features/support/pages/login.js" />
+        <option value="$PROJECT_DIR$/features/support/components/welcomeBanner.js" />
+        <option value="$PROJECT_DIR$/features/support/steps/homePage/given.js" />
+        <option value="$PROJECT_DIR$/features/support/world.js" />
+        <option value="$PROJECT_DIR$/features/home_page.feature" />
+        <option value="$PROJECT_DIR$/features/login_form.feature" />
+        <option value="$PROJECT_DIR$/features/logout.feature" />
+        <option value="$PROJECT_DIR$/features/welcome_banner.feature" />
+        <option value="$PROJECT_DIR$/features/support/setup.js" />
+        <option value="$PROJECT_DIR$/features/support/steps/homePage/when.js" />
+        <option value="$PROJECT_DIR$/features/support/steps/loginForm/then.js" />
+        <option value="$PROJECT_DIR$/client/views/includes/registrationForm.ejs" />
+        <option value="$PROJECT_DIR$/test/specs/register.spec.js" />
+        <option value="$PROJECT_DIR$/test/features/login_form.feature" />
+        <option value="$PROJECT_DIR$/test/features/support/steps/given.js" />
+        <option value="$PROJECT_DIR$/test/features/support/world.js" />
+        <option value="$PROJECT_DIR$/server/data/users.js" />
+        <option value="$PROJECT_DIR$/test/pages/homePage.js" />
+        <option value="$PROJECT_DIR$/test/pages/logout.js" />
+        <option value="$PROJECT_DIR$/test/components/welcomeBanner.js" />
+        <option value="$PROJECT_DIR$/test/pages/loginForm.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/routes/login/get.js" />
+        <option value="$PROJECT_DIR$/client/views/includes/notifications.ejs" />
+        <option value="$PROJECT_DIR$/client/views/includes/loginForm.ejs" />
+        <option value="$PROJECT_DIR$/test/specs/home.spec.js" />
+        <option value="$PROJECT_DIR$/test/specs/logout.spec.js" />
+        <option value="$PROJECT_DIR$/test/specs/login.spec.js" />
+        <option value="$PROJECT_DIR$/client/views/login.ejs" />
+        <option value="$PROJECT_DIR$/client/views/index.ejs" />
+        <option value="$PROJECT_DIR$/client/js/loginForm.js" />
+        <option value="$PROJECT_DIR$/client/js/notifications.js" />
+        <option value="$PROJECT_DIR$/wdio.conf.ch.js" />
+        <option value="$PROJECT_DIR$/wdio.conf.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="801" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.1.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Template Data Languages" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test-reports" />
+      <recent name="$PROJECT_DIR$/features/support/steps/registrationForm" />
+      <recent name="$PROJECT_DIR$/features/support/steps/logout" />
+      <recent name="$PROJECT_DIR$/features/support/steps/loginForm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe3a056a-00cf-4820-bb61-00c31e6025fa" name="Default Changelist" comment="" />
+      <created>1559968224477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559968224477</updated>
+      <workItem from="1559968225761" duration="5561000" />
+      <workItem from="1546300962999" duration="8425000" />
+      <workItem from="1560092657971" duration="1320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15306000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="801" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32863188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30888575" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/register.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/pages/home.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/pages/login.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/components/welcomeBanner.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/steps/homePage/given.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/selenium-webdriver/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="126" column="9" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/login_form.feature" />
+    <entry file="file://$PROJECT_DIR$/features/logout.feature" />
+    <entry file="file://$PROJECT_DIR$/features/welcome_banner.feature" />
+    <entry file="file://$PROJECT_DIR$/features/home_page.feature" />
+    <entry file="file://$PROJECT_DIR$/features/support/steps/homePage/then.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/setup.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/world.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/steps/homePage/when.js" />
+    <entry file="file://$PROJECT_DIR$/features/support/steps/loginForm/then.js" />
+    <entry file="file://$PROJECT_DIR$/client/views/includes/registrationForm.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/features/login_form.feature" />
+    <entry file="file://$PROJECT_DIR$/test/features/support/steps/given.js" />
+    <entry file="file://$PROJECT_DIR$/test/features/support/world.js" />
+    <entry file="file://$PROJECT_DIR$/server/data/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pages/homePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pages/logout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/welcomeBanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/specs/register.spec.js" />
+    <entry file="file://$PROJECT_DIR$/test/pages/loginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/wdio-timeline-reporter/build/timeline-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1893">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desired_location/changelog.txt" />
+    <entry file="file://$PROJECT_DIR$/desired_location/wdio-0-2-timeline-reporter.log" />
+    <entry file="file://$PROJECT_DIR$/desired_location/wdio-0-1-timeline-reporter.log" />
+    <entry file="file://$PROJECT_DIR$/desired_location/wdio-0-0-timeline-reporter.log" />
+    <entry file="file://$PROJECT_DIR$/node_modules/wdio-timeline-reporter/build/mapTests.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@wdio/reporter/build/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="237" column="2" selection-start-line="237" selection-start-column="2" selection-end-line="237" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/login/get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/login/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/selenium-webdriver/lib/webdriver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14430">
+          <caret line="977" column="2" selection-start-line="977" selection-start-column="2" selection-end-line="977" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/wdio-timeline-reporter/build/timeline-reporter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/includes/welcome.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/specs/home.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/specs/logout.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/specs/login.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="128" column="30" lean-forward="true" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/includes/loginForm.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/includes/notifications.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/loginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/notifications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wdio.conf.ff.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wdio.conf.ch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wdio.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
