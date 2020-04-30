@@ -43,7 +43,7 @@
     "express": "^4.17.1",
     "express-flash": "0.0.2",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "selenium-standalone": "^6.16.0",
     "socket.io": "^2.2.0",
     "wdio-timeline-reporter": "^5.0.10"
