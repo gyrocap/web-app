@@ -30,7 +30,7 @@
     "cucumber": "^5.1.0",
     "cucumber-html-report": "^0.6.5",
     "nodemon": "^1.19.1",
-    "pm2": "^3.5.1",
+    "pm2": "^5.2.0",
     "selenium-webdriver": "^4.0.0-alpha.1",
     "webdriverio": "^5.10.0"
   },
