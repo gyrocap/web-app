@@ -45,7 +45,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "selenium-standalone": "^6.16.0",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "wdio-timeline-reporter": "^5.0.10"
   }
 }
